@@ -1,10 +1,10 @@
 [gd_resource type="TileSet" format=3 uid="uid://dt2jugghje88b"]
 
-[ext_resource type="Texture2D" uid="uid://bjwourbk6gaqf" path="res://game/art/textures/monochrome_tilemap.png" id="1_qua36"]
+[ext_resource type="Texture2D" uid="uid://bjwourbk6gaqf" path="res://game/textures/monochrome_tilemap.png" id="1_bc8g8"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ql5ut"]
 resource_name = "primary"
-texture = ExtResource("1_qua36")
+texture = ExtResource("1_bc8g8")
 separation = Vector2i(1, 1)
 0:0/0 = 0
 0:0/0/terrain_set = 0

@@ -1,7 +1,7 @@
 [gd_scene format=4 uid="uid://wwbq8835s3o"]
 
-[ext_resource type="TileSet" uid="uid://dt2jugghje88b" path="res://game/art/tilesets/monochrome-tileset.tres" id="1_8fdmw"]
-[ext_resource type="PackedScene" uid="uid://p8d5clg3etth" path="res://game/prefabs/player.tscn" id="2_k53y6"]
+[ext_resource type="TileSet" uid="uid://dt2jugghje88b" path="res://game/resources/tilesets/monochrome-tileset.tres" id="1_8fdmw"]
+[ext_resource type="PackedScene" uid="uid://p8d5clg3etth" path="res://game/scenes/prefabs/player.tscn" id="2_k53y6"]
 
 [node name="root" type="Node2D" unique_id=516122190]
 
