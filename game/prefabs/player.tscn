@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://p8d5clg3etth"]
+
+[ext_resource type="Script" uid="uid://dypn0xbewn6g4" path="res://game/scripts/ss-player-character.gd" id="1_u6s5y"]
+[ext_resource type="SpriteFrames" uid="uid://dbr540n4eyy2k" path="res://game/art/sprites/player-sprite-frames.tres" id="2_3do4e"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2ljgr"]
+size = Vector2(12, 11)
+
+[node name="player" type="CharacterBody2D" unique_id=943692394]
+physics_interpolation_mode = 1
+script = ExtResource("1_u6s5y")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1240699595]
+position = Vector2(0, 2.5)
+shape = SubResource("RectangleShape2D_2ljgr")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=464892044]
+sprite_frames = ExtResource("2_3do4e")
+animation = &"idle"
